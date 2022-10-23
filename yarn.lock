@@ -274,6 +274,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@builder.io/partytown@^0.7.0":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@builder.io/partytown/-/partytown-0.7.1.tgz#aa13b56022609ba2a4d61cf8bf282a94221c1133"
+  integrity sha512-hvu2gG9NDtCa5aoL4JkvDe3E5SegXlHAkhtA+Az96uTtFA0PYuEPjDYGiayGTkZuRKUmxetebWjIFgSDNdlBOw==
+
 "@cloudflare/kv-asset-handler@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.2.0.tgz#c9959bbd7a1c40bd7c674adae98aa8c8d0e5ca68"
@@ -392,7 +397,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.0.0-rc.12", "@nuxt/kit@^3.0.0-rc.11":
+"@nuxt/kit@3.0.0-rc.12", "@nuxt/kit@^3.0.0-rc.11", "@nuxt/kit@^3.0.0-rc.9":
   version "3.0.0-rc.12"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.12.tgz#637ab3e63d4213b886ab3cda19632bd08bc5ccb6"
   integrity sha512-d/6SeNVL1OPdru5aKjjUIWIwqIjbYN/VYGCrZs5gddkzJ5202DsMxyn2rs/ZyT8+oBbbVTYcCK6M+G0945mQdA==
@@ -503,6 +508,17 @@
     vite-node "^0.24.3"
     vite-plugin-checker "^0.5.1"
     vue-bundle-renderer "^0.4.4"
+
+"@nuxtjs/partytown@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/partytown/-/partytown-1.2.2.tgz#8ec4ec1e753be6fb5b96f8791b2b405d0f0f13d8"
+  integrity sha512-mev71SBQ9nSpVxn47i83VwMDWFxqzoyt/EWnllMGKEJgAsVWwQUxFkAu06roAb/kV7mTXcQM4GeC/hAgjOdnYQ==
+  dependencies:
+    "@builder.io/partytown" "^0.7.0"
+    "@nuxt/kit" "^3.0.0-rc.9"
+    knitwork "^0.1.2"
+    serve-static "^1.15.0"
+    ufo "^0.8.5"
 
 "@rollup/plugin-alias@^4.0.0":
   version "4.0.2"
